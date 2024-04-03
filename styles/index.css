@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.calc-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+    border: solid;
+    border-radius: 10px;
+    border-color: black;
+
+    padding: 6px;
+
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+}
+.display {
+    border: solid;
+    border-radius: 5px;
+    border-color: black;
+
+    width: 210px;
+    height: 50px;
+    margin: 6px 0 6px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.button {
+    width: 40px;
+    height: 40px;
+    border: solid;
+    border-radius: 10px;
+    border-color: black;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 5px;
+
+    user-select: none;
+}
+.button:hover {
+    background: rgba(0, 0, 0, 0.3)
+}
+.button:active {
+    background: rgba(0, 0, 0, 0.5)
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
