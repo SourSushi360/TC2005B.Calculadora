@@ -6,6 +6,12 @@ body {
     align-items: center;
     text-align: center;
     flex-direction: column;
+} .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
 }
 
 .calc-box {
@@ -20,6 +26,17 @@ body {
     border-color: black;
 
     padding: 6px;
+
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+} .result-box {
+    margin-left: 100px;
+    width: 300px;
+    height: 400px;
+    border: solid black;
+    border-radius: 10px;
 
     font-family: "Bebas Neue", sans-serif;
     font-weight: 600;
@@ -55,6 +72,12 @@ body {
     margin: 5px;
 
     user-select: none;
+} #del {
+    background-color: red;
+} #del:hover {
+    background-color: rgb(192, 2, 2);
+} #del:active {
+    background-color: rgb(129, 0, 0);
 }
 .button:hover {
     background: rgba(0, 0, 0, 0.3)
